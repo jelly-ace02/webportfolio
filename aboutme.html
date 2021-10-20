@@ -20,45 +20,31 @@
 
 	<body class="bg-dark">
 
-		<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
-		    <span>
-
-		    	<img src="images/JSL_logo.png" height="50px">
-
-		    </span>
-
-		    <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
-
+		    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		      <span class="navbar-brand"><img src="images/JSL_logo.png" height="50px"></span>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		      </button>
+		      <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
 		        <ul class="navbar-nav mr-auto pl-5">
-
 		          <li class="nav-item active">
-
-		            <a class="nav-link" href="index.html">Home</a>
+		            <a class="nav-link" href="index.html" target="_blank">Home <span class="sr-only">(current)</span></a>
 		          </li>
-
 		          <li class="nav-item">
-
 		            <a class="nav-link text-white" href="aboutme.html">About</a>
-
 		          </li>
-
 		          <li class="nav-item">
-
-		            <a class="nav-link text-white" href="#">Projects</a>
-
+		            <a class="nav-link text-white" href="projects.html" target="_blank">Projects</a>
 		          </li>
 					
 				      <li>
 
-					     <a class="nav-link text-white" href="#">Contact</a>
+					     <a class="nav-link text-white" href="#contactme">Contact</a>
 
 				      </li>
-
 		        </ul>
-
-		    </div>
-
-		</nav>
+		      </div>
+		    </nav>
 
 
 		<div class="container text-white text-center">
@@ -89,7 +75,7 @@
 				
 			</div>
 
-			<div class="accordion text-left" id="aboutme">
+			<div class="accordion text-left pb-5 mb-5" id="aboutme">
 
 				<div class="card">
 
@@ -119,7 +105,7 @@
 							</p>
 
 							<p>
-								I love reading fictional stories and watch documentaries. Curiosity makes me to learn more new technology trends. Bragging aside, my family always asked me stuffs that relates to general information.
+								I love reading fictional stories and watch documentaries. Curiosity makes me to learn new technology. Bragging aside, my family always asked me stuffs that relates to general information.
 							</p>
 
 						</div>
@@ -248,7 +234,50 @@
 			
 		</div>
 
+		<div class="section">
 
+		  <div class="container-fluid">
+
+		    <div class="row justify-content-center">
+
+		      <div class="col-md-6 col-12">
+
+		        <h3 class="text-center font-weight-bold text-white pb-5">CONTACT ME</h3>
+
+		          <form id="contactme">
+		            <div class="form-group">
+		              <input type="text" class="form-control" id="FullName" name="fname" placeholder="Full name">
+		              <input type="tel" class="form-control" id="telno" name="telnum" placeholder="Contact Number">
+		              <input type="email" class="form-control" id="email" name="eadd" placeholder="Email Address">
+		              <textarea class="form-control"></textarea>
+
+		              <p class="pt-4">
+		                <button type="submit" class="btn btn-primary">Submit</button>
+		                <button type="reset" class="btn btn-primary">Clear</button>
+		              </p>
+
+		            </div>
+
+		          </form>
+
+		      </div>
+
+		    </div>
+
+		  </div>
+
+		</div>
+
+		<hr>
+		<footer class="text-center text-white">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-12">
+		        <p>Copyright © JSL. All rights reserved.</p>
+		      </div>
+		    </div>
+		  </div>
+		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

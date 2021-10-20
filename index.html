@@ -34,16 +34,22 @@
             <a class="nav-link text-white" href="#aboutme">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Projects</a>
+            <a class="nav-link text-white" href="#projects">Projects</a>
           </li>
 			
 		      <li>
 
-			     <a class="nav-link text-white" href="#">Contact</a>
+			     <a class="nav-link text-white" href="#contactme">Contact</a>
 
 		      </li>
+
         </ul>
+
       </div>
+
+      <iframe src="https://free.timeanddate.com/clock/i814f5yb/n145/tlph/fn6/fs16/fcfff/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th2/ta1/tb4" frameborder="0" width="212" height="58">
+      </iframe>
+
     </nav>
 	  
     <section>
@@ -79,7 +85,10 @@
             <div class="col-12">
 
               <img src="./images/jumbotron/aboutme.png" class="img-fluid">
-              <a href="aboutme.html" target="_blank">Learn More</a>
+
+              <div class="projects">
+                <a href="aboutme.html" target="_blank">Learn More</a>
+              </div>
 
             </div>
 
@@ -90,6 +99,36 @@
       </div>	
 
     </section>
+
+
+    <section>
+    
+      <div class="jumbotron text-center bg-dark" id="projects">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-12">
+
+              <img src="./images/jumbotron/projects.png" class="img-fluid">
+
+              <div class="projects">
+                <a href="projects.html" align="right" target="_blank">See more</a>
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>  
+
+    </section>
+
+
+
    
     <div class="section">
 
@@ -101,21 +140,19 @@
 
             <h3 class="text-center font-weight-bold text-white">CONTACT ME</h3>
 
-              <form>
+              <form id="contactme">
                 <div class="form-group">
                   <input type="text" class="form-control" id="FullName" name="fname" placeholder="Full name">
                   <input type="tel" class="form-control" id="telno" name="telnum" placeholder="Contact Number">
                   <input type="email" class="form-control" id="email" name="eadd" placeholder="Email Address">
-                  <textarea class="form-control"></textarea>
+                  <textarea class="form-control" name="message"></textarea>
 
-                  <p>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" class="btn btn-primary">Clear</button>
+                  <p class="pt-4">
+                    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                    <button type="reset" class="btn btn-primary" name="clear">Clear</button>
                   </p>
 
                 </div>
-
-              </form>
 
           </div>
 
@@ -126,7 +163,7 @@
     </div>
 
     <hr>
-    <footer class="text-center">
+    <footer class="text-center text-white">
       <div class="container">
         <div class="row">
           <div class="col-12">
